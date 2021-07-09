@@ -1,15 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="restyle.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="restyle.css" />
     <title>Practice</title>
-</head>
-<body>
-   <h1>A.K.M Shahabuddin</h1>
-   <img src="images/Project Cover1.jpg" alt="">
-   
-</body>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+            
+        td, th {
+            border: 1px solid lightblue;
+            padding: 0px 10px;
+        }
+    </style>
+  </head>
+  <body>
+  
+    <h1>A.K.M Shahabuddin</h1>
+
+    <section class="first-sec">
+      <table>
+        <thead>
+          <tr>
+            <th>No.</th>
+            <th>Name</th>
+            <th>Companies</th>
+            <th>Salary</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Roni</td>
+            <td>Ronico.</td>
+            <td>1000$</td>
+          </tr>
+          <tr>
+              <td>2</td>
+              <td>Zareef</td>
+              <td>R.R</td>
+              <td>100$</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Zareef</td>
+            <td>R.R</td>
+            <td>100$</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Zareef</td>
+            <td>R.R</td>
+            <td>100$</td>
+        </tr>
+
+          
+        </tbody>
+      </table>
+    </section>
+    <br><br><br><br>
+    <form action="">
+        <h2>Form for registration</h2>
+        <p>Name:<input type="text" placeholder="Enter your name"></p>
+        <p>Email:<input type="text" placeholder="Enter your email"></p>
+        <fieldset>
+       <legend>Select olympiads</legend>
+           <label for="BDOAA"><p>BDOAA<input type="checkbox" name="BDOAA" id="olympiad"></p></label>
+           <label for="BDMO"><p>BDMO<input type="checkbox" name="BDMO" id="olympiad"></p></label>
+           <label for="BDJSO"><p>BDJSO<input type="checkbox" name="BDJSO" id="olympiad"></p></label>
+           <label for="BDPHO"><p>BDPHO<input type="checkbox" name="BDPHO" id="olympiad"></p></label>
+       
+        </fieldset>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+  </body>
 </html>
